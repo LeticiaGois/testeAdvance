@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+}
+
+.logo{
+	width: 100%;
+	background-color: #66CDAA;
+}
+.logo-principal{
+	padding: 10px;
+	text-align: center;
+}
+
+
+main{
+	width: 100%;
+}
+
+.subtitulo{
+	width: 35%;
+	font-family: 'Cookie', cursive;
+	font-size: 71px;
+	color:#E0FFFF;
+	padding-bottom: 15px;
+	padding-left: 35%;
+	padding-top: 71px;
+	font-stretch: extra-expanded;
+	font-weight: lighter;
+	line-height: 0.6;
+	text-align: center;
+}
+
+
+
+#contact{
+	padding-left: 35%;
+	padding-top: 20px;
+
+
+
+}
+
+input{
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	border: inherit;
+	border-radius: 5px;
+	padding: 8px;
+	width: 50%;
+	margin: 10px;
+}
+
+textarea{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	border: inherit;
+	border-radius: 5px;
+	padding: 8px;
+	width: 50%;
+	margin: 10px;
+
+}
+
+input[type='submit']{
+	width: 52%;
+	font-size: 22px;
+	font-family: 'Open Sans', sans-serif;
+	cursor: pointer;
+	color: #FFFFFF;
+	background-color: #66CDAA;
+	font-weight: bold;
+}
+
+input[type='submit']:hover{
+	background: #E0FFFF;
+	color: black;
+}
+
+.msg-erro{
+	color: lightgrey;
+	font-size: 14pt;
+	padding: 4px;
+	font-family: 'Open Sans', sans-serif;
+}
+
